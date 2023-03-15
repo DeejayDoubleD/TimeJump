@@ -1,0 +1,40 @@
+
+
+* { box-sizing:border-box; margin:0; padding:0; }
+
+html { height:100%; width:100%; }
+
+body {
+
+  align-content:center;
+  align-items:space-around;
+  background-color:#202830;
+  display:grid;
+  justify-items:center;
+  height:100%;
+  width:100%;
+
+}
+
+
+@font-face {
+	font-family: 'Conv_04B_30__';
+	src: url('fonts/04B_30__.eot');
+	src: local('☺'), url('fonts/04B_30__.woff') format('woff'), url('fonts/04B_30__.ttf') format('truetype'), url('fonts/04B_30__.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.pixelart
+    {
+      font-family:'Conv_04B_30__',Sans-Serif;
+      color: white;
+
+    }
+.menu
+{
+  font-family:'Conv_04B_30__',Sans-Serif;
+      color: white;
+      font-size: x-large;
+}
+
+

@@ -1,0 +1,73 @@
+  
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+
+  <head>
+
+    <meta name = "viewport" content = "width=device-width">
+    <link href = "timejump.css" rel = "stylesheet" type = "text/css">
+    
+  </head>
+
+  <body>
+
+    
+    
+    <canvas></canvas>
+    <div id="mainMenu">
+      <img src="textures/MainMenu.png">
+      
+    </div>
+    
+
+    <button id="level1" class="menu"></button>
+    <button id="level2" class="menu" ></button>
+    <button id="level3" class="menu"></button>
+    <button id="neustarten" class="menu"></button>
+    <button id="hauptmenue" class="menu"></button>
+    <button id="nextLevel"  class="menu"></button>
+    <button id="steuerung"  class="menu"></button>
+    <button id="exitSteuerung"  class="menu"></button>
+    <button id="mute" class="menu"></button>
+    
+    <audio id="levelMusic">
+      <source src="sounds/levelMusic.mp3">
+    </audio>
+    <audio id="victoryMusic">
+      <source src="sounds/victory.mp3">
+    </audio>
+    <audio id="gameoverMusic">
+      <source src="sounds/gameover.mp3">
+    </audio>
+    <audio id="jumpMusic">
+      <source src="sounds/jump.mp3">
+    </audio>
+    <audio id="titleMusic">
+      <source src="sounds/titleMusic.mp3">
+    </audio>
+    
+    <div 
+    div class="pixelart"
+    id="timer">0
+    </div>
+
+    <div id="title"></div>
+    <div id="gameOver"></div>
+    <div id="levelComplete"></div>
+    <div id="countdown"></div>
+    <div id="controls"></div>
+   
+    
+  
+    <script src = "engine.js" type = "text/javascript"></script>
+    <script src = "controller.js" type = "text/javascript"></script>
+    <script src = "display.js" type = "text/javascript"></script>
+    <script src = "main.js" type = "text/javascript"></script>
+    <script src = "game.js" type = "text/javascript"></script>
+
+  </body>
+
+  
+</html>
