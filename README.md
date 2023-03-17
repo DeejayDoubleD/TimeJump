@@ -5,6 +5,8 @@ This was my first programming project back in 2021. Me and some friends programm
 
 To run the game, set up a webserver and simply open the index.html file from your webserver in a browser of your choice.
 
+The game runs only on a computer and is not optimized for smartphones!
+
 Credits:
 
 DeejayDoubleD: main developer
